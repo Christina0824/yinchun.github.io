@@ -32,7 +32,9 @@ author:
 
   location: # "Taiwan / United States"
 
-  employer: "NTUT (Ph.D.)<br>Penn State (Visiting Scholar)"
+  employer: |
+  NTUT (Ph.D.)
+  Penn State (Visiting Scholar)
 
   uri: # URL
   email            : "yinchun0110@gmail.com" 
