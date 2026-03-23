@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "YIN CHUN LIN"
-  pronouns         : # example: "she/her"  
-  bio              : "Yin Chun Lin is a Ph.D. candidate specializing in data-driven social science research at the intersection of higher education, innovation systems, and science and technology studies. Her research focuses on researchers’ collaboration, knowledge production, and the relationships between academic research and industrial innovation, especially in Taiwan’s semiconductor and biomedical sectors. Using Stata and Python, she applies quantitative analysis, bibliometric methods, natural language processing, and spatial econometrics to analyze large-scale data on research, collaboration networks, and innovation."
+  pronouns         : "she/her"  
+  bio              : "Ph.D. Candidate | Data-Driven Social Science"
   location         : "Taiwan / United States"
   employer         : "National Taipei University of Technology & Penn State University"
   uri              : # URL
