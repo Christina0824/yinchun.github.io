@@ -24,21 +24,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "YIN CHUN LIN"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Yin Chun Lin is a Ph.D. candidate specializing in data-driven social science research at the intersection of higher education, innovation systems, and science and technology studies. Her research focuses on researchers’ collaboration, knowledge production, and the relationships between academic research and industrial innovation, especially in Taiwan’s semiconductor and biomedical sectors. Using Stata and Python, she applies quantitative analysis, bibliometric methods, natural language processing, and spatial econometrics to analyze large-scale data on research, collaboration networks, and innovation."
+  location         : "Taiwan"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yinchun0110@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.tw/citations?hl=zh-TW&user=1IH85ioAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0006-0166-6914"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
