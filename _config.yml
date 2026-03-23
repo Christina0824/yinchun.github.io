@@ -37,30 +37,30 @@ author:
     Visiting Scholar, The Pennsylvania State University
 
   uri: # URL
-email            : "yinchun0110@gmail.com" 
-
-# Academic websites
-academia         : # URL
-arxiv            : # URL - Update with the correct link to your profile
-googlescholar    : "https://scholar.google.com.tw/citations?hl=zh-TW&user=1IH85ioAAAAJ"
-inspire-hep      : # URL
-impactstory      : # URL
-orcid            : "https://orcid.org/0009-0006-0166-6914"
-semantic         : # URL
-ssrn             : # URL
-pubmed           : # URL
-researchgate     : # URL
-scopus           : # URL
-zotero           : # URL
-
-
-# Repositories and software development
-bitbucket        : # Username - Update with your username on the site
-codepen          : # Username
-dribbble         : # Username
-github           : "Christina0824"
-kaggle           : # Username  
-stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  email            : "yinchun0110@gmail.com" 
+  
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com.tw/citations?hl=zh-TW&user=1IH85ioAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0009-0006-0166-6914"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : # URL
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
+  
+  
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "Christina0824"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
