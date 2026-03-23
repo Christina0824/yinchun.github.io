@@ -9,6 +9,7 @@ location: "Taipei, Taiwan"
 ---
 
 Served as an instructor in a two-day workshop on advanced data analytics.
+
 ![Workshop](../images/workshop-1.jpg)
 
 The workshop focused on practical applications of data-driven methods, covering:
