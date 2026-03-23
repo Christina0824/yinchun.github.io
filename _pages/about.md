@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,7 +8,7 @@ redirect_from:
 ---
 ## Yin Chun Lin
 
-Ph.D. Candidate in Higher Education Economics  
+Ph.D. Candidate in Data-Driven Social Science  
 National Taipei University of Technology  
 Visiting Scholar at The Pennsylvania State University  
 
@@ -22,21 +22,23 @@ My research integrates **econometrics, bibliometrics, and natural language proce
 
 ### Research Interests
 
-- Academic research and industrial innovation linkages  
-- Innovation systems and knowledge spillovers  
-- International research collaboration  
-- Higher education policy and institutional analysis  
-- Data-driven policy evaluation  
+- Researchers’ collaboration and knowledge networks
+- Academic research and industrial innovation linkages
+- Innovation systems, knowledge spillovers, and research funding
+- Science and technology policy
+- Higher education policy and institutional analysis
+- Computational social science
 
 ---
 
 ### Methods and Skills
 
-- Spatial econometrics (SDM, VAR, Toda-Yamamoto Granger causality)  
-- Bibliometric and scientometric analysis  
-- Natural language processing (NLP) and text mining  
-- Programming: Python, Stata  
-
+- Spatial analysis, including ESDA (Moran’s I, LISA) and spatial econometrics (SDM)
+- Time-series analysis, including VAR and Toda-Yamamoto Granger causality
+- Bibliometric and scientometric analysis
+- Natural language processing (NLP) and text mining
+- Programming: Python and Stata
+  
 ---
 
 ### Current Research
@@ -47,5 +49,4 @@ My current research examines how academic research activities influence industri
 
 ### Contact
 
-- Email: your_email_here  
-- GitHub: https://github.com/Christina0824 
+- Email: yinchun0110@gmail.com  
