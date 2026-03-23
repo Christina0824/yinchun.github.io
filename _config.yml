@@ -13,10 +13,10 @@ title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : url: https://Christina0824.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Christina0824/yinchun.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -27,8 +27,8 @@ author:
   name             : "YIN CHUN LIN"
   pronouns         : # example: "she/her"  
   bio              : "Yin Chun Lin is a Ph.D. candidate specializing in data-driven social science research at the intersection of higher education, innovation systems, and science and technology studies. Her research focuses on researchers’ collaboration, knowledge production, and the relationships between academic research and industrial innovation, especially in Taiwan’s semiconductor and biomedical sectors. Using Stata and Python, she applies quantitative analysis, bibliometric methods, natural language processing, and spatial econometrics to analyze large-scale data on research, collaboration networks, and innovation."
-  location         : "Taiwan"
-  employer         : "Red Brick University"
+  location         : "Taiwan / United States"
+  employer         : "National Taipei University of Technology & Penn State University"
   uri              : # URL
   email            : "yinchun0110@gmail.com" 
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Christina0824"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
