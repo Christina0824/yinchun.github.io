@@ -41,8 +41,77 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* ===== Minimal Academic Style (MIT / Stanford style) ===== */
+
+/* 1. Typography */
+body {
+  font-size: 15.5px;
+  line-height: 1.7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+}
+
+/* 2. Headings (壓低標題感) */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* 3. Sidebar avatar (圓形 + 精緻) */
 .author__avatar img {
+  width: 160px !important;
+  height: 160px !important;
   border-radius: 50%;
-  width: 180px;
-  border: 3px solid #ddd;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+/* 4. Sidebar spacing（讓左側變乾淨） */
+.author__content {
+  font-size: 14px;
+}
+
+.author__bio {
+  margin-bottom: 0.5rem;
+}
+
+/* 5. Links（學術風藍） */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 6. Publication spacing（重點！） */
+.archive__item {
+  margin-bottom: 1.2rem;
+}
+
+.archive__item-title {
+  font-weight: 500;
+}
+
+/* 7. Tables（讓 IF/Q1 那些不要太重） */
+table {
+  font-size: 13px;
+  margin-top: 0.3rem;
+}
+
+/* 8. 全站留白（關鍵質感） */
+.page__content p {
+  margin-bottom: 1rem;
 }
