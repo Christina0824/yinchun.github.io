@@ -22,4 +22,5 @@ The course emphasized hands-on learning and real-world data analysis, equipping 
 
 
 ![Workshop](../images/2025_winter_workshop-3.png.jpeg)
+
 ![Workshop](../images/2025_winter_workshop-2.png.jpeg)
