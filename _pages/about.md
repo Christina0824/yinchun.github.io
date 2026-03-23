@@ -39,14 +39,3 @@ My research integrates **econometrics, bibliometrics, and natural language proce
 - Natural language processing (NLP) and text mining
 - Programming: Python and Stata
   
----
-
-### Current Research
-
-My current research examines how academic research activities influence industrial innovation outcomes, and how these relationships evolve over time. Using large-scale bibliometric and patent data, I aim to identify patterns of knowledge diffusion and evaluate the effectiveness of innovation-related policies.
-
----
-
-### Contact
-
-- Email: yinchun0110@gmail.com  
