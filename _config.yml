@@ -23,7 +23,7 @@ repository               : "Christina0824/yinchun.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "0311-4-1.jpg"
+  avatar           : "profile.png"
   name             : "YIN CHUN LIN"
   pronouns         : # example: "she/her"  
   bio              : "Yin Chun Lin is a Ph.D. candidate specializing in data-driven social science research at the intersection of higher education, innovation systems, and science and technology studies. Her research focuses on researchers’ collaboration, knowledge production, and the relationships between academic research and industrial innovation, especially in Taiwan’s semiconductor and biomedical sectors. Using Stata and Python, she applies quantitative analysis, bibliometric methods, natural language processing, and spatial econometrics to analyze large-scale data on research, collaboration networks, and innovation."
