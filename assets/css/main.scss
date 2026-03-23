@@ -126,30 +126,3 @@ table {
 .page__content p {
   margin-bottom: 1rem;
 }
-@media (prefers-color-scheme: dark) {
-  .page__content,
-  .page__content p,
-  .page__content li,
-  .page__content strong,
-  .page__content em,
-  .archive__item-excerpt,
-  .archive__item,
-  .sidebar p,
-  .sidebar li {
-    color: #e0e0e0 !important;
-  }
-
-  .page__title,
-  .archive__item-title,
-  .author__name,
-  h1, h2, h3, h4, h5, h6 {
-    color: #ffffff !important;
-  }
-
-  a,
-  .page__content a,
-  .author__urls a,
-  .greedy-nav a {
-    color: #8ab4f8 !important;
-  }
-}
