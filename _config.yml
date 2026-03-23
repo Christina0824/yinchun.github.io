@@ -22,18 +22,21 @@ repository               : "Christina0824/yinchun.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-# Biographic information
-avatar           : "profile.png"
-name             : "YIN CHUN LIN"
-pronouns         : #"she/her"  
-bio: |
-Ph.D. Candidate
-Data-Driven Social Science
-location         : #"Taiwan / United States"
-employer: |
-National Taipei University of Technology
-Visiting Scholar, The Pennsylvania State University
-uri              : # URL
+  avatar: "profile.png"
+  name: "YIN CHUN LIN"
+  pronouns: # "she/her"
+
+  bio: |
+    Ph.D. Candidate
+    Data-Driven Social Science
+
+  location: # "Taiwan / United States"
+
+  employer: |
+    National Taipei University of Technology
+    Visiting Scholar, The Pennsylvania State University
+
+  uri: # URL
 email            : "yinchun0110@gmail.com" 
 
 # Academic websites
