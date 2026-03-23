@@ -25,9 +25,9 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "YIN CHUN LIN"
-  pronouns         : "she/her"  
+  pronouns         : #"she/her"  
   bio              : "Ph.D. Candidate | Data-Driven Social Science"
-  location         : "Taiwan / United States"
+  location         : #"Taiwan / United States"
   employer         : "National Taipei University of Technology & Penn State University"
   uri              : # URL
   email            : "yinchun0110@gmail.com" 
