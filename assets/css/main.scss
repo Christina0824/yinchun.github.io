@@ -132,13 +132,36 @@ table {
     background-color: #121212;
   }
 
+  .page,
+  .page__content,
+  .page__content p,
+  .page__content li,
+  .page__content strong,
+  .page__content em,
+  .archive,
+  .archive__item,
+  .archive__item-excerpt {
+    color: #e0e0e0 !important;
+  }
+
+  .page__title,
+  .archive__item-title,
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+
   a {
     color: #8ab4f8;
   }
 
-  .author__bio,
-  .author__name,
-  .author__urls {
-    color: #ffffff !important;
+  a:hover {
+    color: #a8c7fa;
+  }
+
+  .masthead,
+  .greedy-nav,
+  .sidebar,
+  .page__footer {
+    background-color: #121212 !important;
   }
 }
