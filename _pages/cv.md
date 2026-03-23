@@ -15,9 +15,11 @@ Education
 Work Experience
 ======
 
-* Vice Director and Department Leader, Language Education Company
+* Aug 2018 - Jun 2020: Substitute Teacher, Waishe Elementary School
 
-* Responsibilities include department management, human resources coordination, and logistics planning
+* Aug 2020 - Jun 2021: Substitute Teacher, Resource Classroom, Shanding Elementary School
+
+* Dec 2024 - May 2025: Executive Secretary, Taiwan Association for Institutional Research
 
 Research Interests
 ======
