@@ -126,3 +126,19 @@ table {
 .page__content p {
   margin-bottom: 1rem;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e0e0e0;
+    background-color: #121212;
+  }
+
+  a {
+    color: #8ab4f8;
+  }
+
+  .author__bio,
+  .author__name,
+  .author__urls {
+    color: #ffffff !important;
+  }
+}
