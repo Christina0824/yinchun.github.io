@@ -127,41 +127,59 @@ table {
   margin-bottom: 1rem;
 }
 @media (prefers-color-scheme: dark) {
+  html,
   body {
-    color: #e0e0e0;
-    background-color: #121212;
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
   }
 
   .page,
+  .page__inner-wrap,
+  .page__content,
+  .archive,
+  .archive__item,
+  .archive__item-excerpt,
+  .sidebar,
+  .masthead,
+  .greedy-nav,
+  .page__footer {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+  }
+
   .page__content,
   .page__content p,
   .page__content li,
+  .page__content ul,
+  .page__content ol,
   .page__content strong,
   .page__content em,
-  .archive,
+  .archive__item-excerpt,
   .archive__item,
-  .archive__item-excerpt {
+  .notice,
+  .sidebar p,
+  .sidebar li {
     color: #e0e0e0 !important;
   }
 
   .page__title,
   .archive__item-title,
+  .author__name,
   h1, h2, h3, h4, h5, h6 {
     color: #ffffff !important;
   }
 
-  a {
-    color: #8ab4f8;
+  a,
+  .page__content a,
+  .author__urls a,
+  .greedy-nav a {
+    color: #8ab4f8 !important;
   }
 
-  a:hover {
-    color: #a8c7fa;
-  }
-
-  .masthead,
-  .greedy-nav,
-  .sidebar,
-  .page__footer {
-    background-color: #121212 !important;
+  a:hover,
+  .page__content a:hover,
+  .author__urls a:hover,
+  .greedy-nav a:hover {
+    color: #a8c7fa !important;
   }
 }
