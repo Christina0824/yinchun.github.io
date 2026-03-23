@@ -1,64 +1,55 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
 redirect_from:
-  - /resume
+- /resume
 ---
 
 {% include base_path %}
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+* Ph.D. Candidate, Graduate Institute of Technological and Vocational Education, National Taipei University of Technology, Taiwan
+
+* Visiting Scholar, The Pennsylvania State University, United States
+
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Vice Director and Department Leader, Language Education Company
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* Responsibilities include department management, human resources coordination, and logistics planning
+
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Researchers’ collaboration and knowledge networks
+
+* Academic research and industrial innovation linkages
+
+* Innovation systems and knowledge spillovers
+
+* Science and technology policy
+
+* Higher education policy and institutional analysis
+
+* Computational social science
+
+Methods and Skills
+======
+
+* Spatial analysis, including ESDA (Moran’s I, LISA) and spatial econometrics (SDM)
+
+* Time-series analysis, including VAR and Toda-Yamamoto Granger causality
+
+* Bibliometric analysis and knowledge network analysis
+
+* Natural language processing (NLP) and text mining
+
+* Programming: Python and Stata
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+<ul>{% for post in site.publications reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}</ul>
