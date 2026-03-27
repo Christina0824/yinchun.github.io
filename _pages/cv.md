@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)]({{ site.baseurl }}/files/YinChunLin_CV.pdf){: target="_blank" .btn .btn--primary }
+[Download CV (PDF)]({{ site.baseurl }}/files/CV_YinChunLin.pdf){: target="_blank" .btn .btn--primary }
