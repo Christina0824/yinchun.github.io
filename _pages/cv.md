@@ -9,11 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)]({{ base_path }}/files/YinChunLin_CV.pdf){: target="_blank" .btn .btn--primary }
-
-<iframe
-  src="{{ base_path }}/files/YinChunLin_CV.pdf"
-  width="100%"
-  height="1000px"
-  style="border: none;">
-</iframe>
+[Download CV (PDF)]({{ site.baseurl }}/files/YinChunLin_CV.pdf){: target="_blank" .btn .btn--primary }
