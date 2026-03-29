@@ -2,29 +2,45 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<h2>Journal Articles</h2>
 {% assign journal_papers = site.publications | where: "category", "journal articles" | sort: "date" | reverse %}
+{% assign book_chapters = site.publications | where: "category", "book chapters" | sort: "date" | reverse %}
+{% assign conference_papers = site.publications | where: "category", "conference papers" | sort: "date" | reverse %}
+
+{% assign journal_count = journal_papers | size %}
+{% assign book_count = book_chapters | size %}
+{% assign conference_count = conference_papers | size %}
+{% assign total_count = journal_count | plus: book_count | plus: conference_count %}
+
+<p>
+  {{ total_count }} publications
+  ({{ journal_count }} journal article{% if journal_count != 1 %}s{% endif %},
+  {{ book_count }} book chapter{% if book_count != 1 %}s{% endif %},
+  and {{ conference_count }} conference paper{% if conference_count != 1 %}s{% endif %}).
+</p>
+
+{% if site.author.googlescholar %}
+<p>
+  You can also find my publications on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
+{% endif %}
+
+<h2>Journal Articles</h2>
 {% for post in journal_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2>Book Chapters</h2>
-{% assign book_chapters = site.publications | where: "category", "book chapters" | sort: "date" | reverse %}
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h2>International Conferences</h2>
-{% assign conference_papers = site.publications | where: "category", "conference papers" | sort: "date" | reverse %}
+<h2>Conference Papers</h2>
 {% for post in conference_papers %}
   {% include archive-single.html %}
 {% endfor %}
