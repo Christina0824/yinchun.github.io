@@ -3,7 +3,7 @@ title: "Applications of Data Science in Higher Education Research"
 collection: talks
 type: "Invited Talk"
 venue: "National Competition and Exhibition of Students’ Practical Projects for Technological and Vocational Colleges and Universities"
-date: 2024-01-01
+date: 2024-05-17
 location: "Taiwan"
 ---
 
