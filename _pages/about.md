@@ -17,8 +17,8 @@ National Academy for Educational Research, Taiwan
 Ph.D. in Technical and Vocational Education  
 National Taipei University of Technology  
 
-Former Visiting Scholar  
-The Pennsylvania State University  
+The Pennsylvania State University<br />
+Visiting Scholar (2025–2026)
 
 ---
 
