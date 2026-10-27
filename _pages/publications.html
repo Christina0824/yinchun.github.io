@@ -2,14 +2,17 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+lang: en
+translation_url: /zh-tw/publications/
 author_profile: false
 ---
 
 {% include base_path %}
 
-{% assign journal_papers = site.publications | where: "category", "journal articles" | sort: "date" | reverse %}
-{% assign book_chapters = site.publications | where: "category", "book chapters" | sort: "date" | reverse %}
-{% assign conference_papers = site.publications | where: "category", "conference papers" | sort: "date" | reverse %}
+{% assign english_publications = site.publications | where_exp: "item", "item.lang != 'zh-TW'" %}
+{% assign journal_papers = english_publications | where: "category", "journal articles" | sort: "date" | reverse %}
+{% assign book_chapters = english_publications | where: "category", "book chapters" | sort: "date" | reverse %}
+{% assign conference_papers = english_publications | where: "category", "conference papers" | sort: "date" | reverse %}
 
 {% assign journal_count = journal_papers | size %}
 {% assign book_count = book_chapters | size %}

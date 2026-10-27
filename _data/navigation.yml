@@ -7,7 +7,7 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
-main:
+main_en:
   - title: "Home"
     url: /
 
@@ -25,3 +25,22 @@ main:
 
   - title: "Teaching"
     url: /teaching/
+
+main_zh:
+  - title: "首頁"
+    url: /zh-tw/
+
+  - title: "履歷"
+    url: /zh-tw/cv/
+
+  - title: "研究成果"
+    url: /zh-tw/publications/
+
+  - title: "演講"
+    url: /zh-tw/talks/
+
+  - title: "研究計畫"
+    url: /zh-tw/projects/
+
+  - title: "教學"
+    url: /zh-tw/teaching/

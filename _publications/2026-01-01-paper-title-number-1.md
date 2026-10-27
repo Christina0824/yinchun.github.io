@@ -3,6 +3,8 @@ title: "Examining Institutional Academic Freedom and STEM Research Production in
 collection: publications
 category: journal articles
 permalink: /publication/2026-ijer-academic-freedom
+lang: en
+translation_url: /zh-tw/publication/2026-ijer-academic-freedom/
 date: 2026-Jan
 venue: "International Journal of Educational Research"
 citation: "Fernandez, F., Fu, Y.-C., Lin, Y. C., & Chykina, V. (2026). Examining institutional academic freedom and STEM research production in the OECD. International Journal of Educational Research, 136, 102915."

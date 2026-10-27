@@ -1,3 +1,16 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ base_path }}/assets/js/responsive-nav-fallback.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var navButton = document.querySelector("#site-nav > button");
+    var profileButton = document.querySelector(".author__urls-wrapper > button");
+    if (navButton) navButton.addEventListener("click", function () {
+      setTimeout(function () { navButton.setAttribute("aria-expanded", navButton.classList.contains("close")); }, 0);
+    });
+    if (profileButton) profileButton.addEventListener("click", function () {
+      setTimeout(function () { profileButton.setAttribute("aria-expanded", profileButton.classList.contains("open")); }, 0);
+    });
+  });
+</script>
 
 {% include analytics.html %}

@@ -1,6 +1,8 @@
 ---
 title: "Vibe Coding Workshop — Graduate Student Personal Research System 2.0"
 collection: teaching
+lang: en
+translation_url: /zh-tw/teaching/2026-yuntech-workshop/
 type: "Workshop"
 permalink: /teaching/2026-yuntech-workshop
 venue: "National Yunlin University of Science and Technology (YunTech)"
@@ -10,7 +12,7 @@ location: "Yunlin, Taiwan"
 
 Served as the Day 1 instructor for the "Vibe Coding Workshop" (Graduate Student Personal Research System 2.0), hosted at National Yunlin University of Science and Technology, co-organized with the Taiwan Association for Institutional Research (TAIR).
 
-![Workshop Poster](../images/IMG_2016.PNG)
+![Workshop Poster]({{ site.baseurl }}/images/IMG_2016.PNG)
 
 My sessions on September 15 covered:
 
@@ -19,4 +21,4 @@ My sessions on September 15 covered:
 
 The workshop focused on hands-on, reproducible research workflows for graduate students, from raw government open data to verifiable research data packages and academic analytics.
 
-![Workshop](../images/IMG_8496.JPG)
+![Workshop]({{ site.baseurl }}/images/IMG_8496.JPG)

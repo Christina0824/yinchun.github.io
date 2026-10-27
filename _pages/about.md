@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "About me"
+lang: en
+translation_url: /zh-tw/
 author_profile: true
 redirect_from:
   - /about/

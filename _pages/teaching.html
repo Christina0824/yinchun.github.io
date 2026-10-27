@@ -2,11 +2,14 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
+lang: en
+translation_url: /zh-tw/teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign english_teaching = site.teaching | where_exp: "item", "item.lang != 'zh-TW'" %}
+{% for post in english_teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}

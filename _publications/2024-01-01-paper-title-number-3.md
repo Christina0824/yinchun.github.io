@@ -3,6 +3,8 @@ title: "書目計量數據在教育研究領域的應用與啟示"
 collection: publications
 category: journal articles
 permalink: /publication/2024-tjre-bibliometric-education
+lang: en
+translation_url: /zh-tw/publication/2024-tjre-bibliometric-education/
 date: 2024-01-01
 venue: "台灣教育研究期刊"
 citation: "林胤均、曾國豪、王繼陶、傅遠智（2024）。書目計量數據在教育研究領域的應用與啟示。台灣教育研究期刊，5(4)，337-346。"

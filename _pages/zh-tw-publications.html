@@ -1,0 +1,41 @@
+---
+layout: archive
+title: "研究成果"
+permalink: /zh-tw/publications/
+lang: zh-TW
+translation_url: /publications/
+author_profile: false
+---
+
+{% include base_path %}
+
+{% assign chinese_publications = site.publications | where: "lang", "zh-TW" %}
+{% assign journal_papers = chinese_publications | where: "category", "journal articles" | sort: "date" | reverse %}
+{% assign book_chapters = chinese_publications | where: "category", "book chapters" | sort: "date" | reverse %}
+{% assign conference_papers = chinese_publications | where: "category", "conference papers" | sort: "date" | reverse %}
+
+{% assign journal_count = journal_papers | size %}
+{% assign book_count = book_chapters | size %}
+{% assign conference_count = conference_papers | size %}
+{% assign total_count = journal_count | plus: book_count | plus: conference_count %}
+
+<p>共 {{ total_count }} 項研究成果（{{ journal_count }} 篇期刊論文、{{ book_count }} 篇專書章節，以及 {{ conference_count }} 篇研討會論文）。</p>
+
+{% if site.author.googlescholar %}
+<p>亦可前往 <a href="{{ site.author.googlescholar }}">Google Scholar</a> 查看我的研究成果。</p>
+{% endif %}
+
+<h2>期刊論文</h2>
+{% for post in journal_papers %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>專書章節</h2>
+{% for post in book_chapters %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>研討會論文</h2>
+{% for post in conference_papers %}
+  {% include archive-single.html %}
+{% endfor %}

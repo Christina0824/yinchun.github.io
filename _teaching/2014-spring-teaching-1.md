@@ -1,6 +1,8 @@
 ---
 title: "Workshop on Generative AI and GIS Applications in Institutional Research"
 collection: teaching
+lang: en
+translation_url: /zh-tw/teaching/2025-spring-workshop-ai-qgis/
 type: "Workshop"
 permalink: /teaching/2025-spring-workshop-ai-qgis
 venue: "National Taipei University of Technology"
@@ -18,10 +20,10 @@ My session focused on:
 - Practical use cases of large language models (LLMs)  
 - Integrating AI tools into data analysis workflows  
 
-![Workshop](../images/2025_March_workshop_1.jpg)
+![Workshop]({{ site.baseurl }}/images/2025_March_workshop_1.jpg)
 
 The workshop emphasized practical, hands-on applications and aimed to equip participants with new analytical perspectives and tools for data-driven decision-making in higher education.
 
-![Workshop](../images/2025_March_workshop_3.jpeg)
+![Workshop]({{ site.baseurl }}/images/2025_March_workshop_3.jpeg)
 
-![Workshop](../images/2025_March_workshop_4.jpeg)
+![Workshop]({{ site.baseurl }}/images/2025_March_workshop_4.jpeg)

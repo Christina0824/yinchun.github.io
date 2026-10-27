@@ -3,6 +3,8 @@ title: "Science at Risk? Considering the Importance of Academic Freedom for STEM
 collection: publications
 category: journal articles
 permalink: /publication/2024-plosone-science-at-risk
+lang: en
+translation_url: /zh-tw/publication/2024-plosone-science-at-risk/
 date: 2024-01-01
 venue: "PLOS ONE"
 citation: "Fernandez, F., Chykina, V., & Lin, Y. C. (2024). Science at risk? Considering the importance of academic freedom for STEM research production across 17 OECD countries. PLOS ONE, 19(2), e0298370."

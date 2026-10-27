@@ -1,4 +1,5 @@
 {% include base_path %}
+{% assign item_lang = post.lang | default: page.lang | default: site.locale %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -35,7 +36,7 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% if item_lang == "zh-TW" %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ post.date | date: '%B %d, %Y' }}{% endif %}</p>{% endif %}
     {% if post.venue %}
   <p class="archive__item-excerpt" itemprop="description">
     {{post.type}}, {{ post.venue }}, {{post.location}}

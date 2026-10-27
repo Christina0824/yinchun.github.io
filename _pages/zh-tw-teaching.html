@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "教學"
+permalink: /zh-tw/teaching/
+lang: zh-TW
+translation_url: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign chinese_teaching = site.teaching | where: "lang", "zh-TW" %}
+{% for post in chinese_teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}

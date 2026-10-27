@@ -1,6 +1,9 @@
 ---
 title: "Applications of Data Science in Higher Education Research"
 collection: talks
+lang: en
+permalink: /talks/2024-data-science-higher-education/
+translation_url: /zh-tw/talks/2024-data-science-higher-education/
 type: "Invited Talk"
 venue: "National Competition and Exhibition of Students’ Practical Projects for Technological and Vocational Colleges and Universities"
 date: 2024-05-17

@@ -1,4 +1,5 @@
 {% include base_path %}
+{% assign item_lang = post.lang | default: page.lang | default: site.locale %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -41,7 +42,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{% if item_lang == "zh-TW" %}發表於{% else %}Published in{% endif %} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -53,31 +54,31 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a> | <a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a> | <a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a> | <a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a> | <a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a> | <a href="{{ post.bibtexurl}}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a></p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+      <p>{% if item_lang == "zh-TW" %}建議引用格式{% else %}Recommended citation{% endif %}: {{ post.citation }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a> | <a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p><a href="{{ post.paperurl }}">{% if item_lang == "zh-TW" %}閱讀論文{% else %}Download Paper{% endif %}</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a> | <a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.slidesurl }}">{% if item_lang == "zh-TW" %}下載簡報{% else %}Download Slides{% endif %}</a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.bibtexurl }}">{% if item_lang == "zh-TW" %}下載 BibTeX{% else %}Download Bibtex{% endif %}</a></p>
     {% endif %}
 
   </article>

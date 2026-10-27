@@ -1,0 +1,14 @@
+---
+title: "Conscription and the Labor Market Outcomes of Recent College Graduates: Evidence from One Taiwanese University"
+collection: publications
+category: conference papers
+permalink: /zh-tw/publication/2025-aera-conscription-labor-market/
+date: 2025-04-01
+venue: "Annual Meeting of the American Educational Research Association (AERA), Denver, Colorado"
+citation: "Fu, Y. C., Quetzal, S. A., Lee, W. C., Chang, I. H., & Lin, Y. C. (2025, April). Conscription and the labor market outcomes of recent college graduates: Evidence from one Taiwanese university. Annual Meeting of the American Educational Research Association (AERA), Denver, Colorado."
+excerpt: "國際研討會論文"
+lang: zh-TW
+translation_url: /publication/2025-aera-conscription-labor-market
+---
+
+Fu, Y. C., Quetzal, S. A., Lee, W. C., Chang, I. H., & Lin, Y. C. (2025, April). Conscription and the labor market outcomes of recent college graduates: Evidence from one Taiwanese university. Annual Meeting of the American Educational Research Association (AERA), Denver, Colorado.
